@@ -1,0 +1,150 @@
+html{
+    height: 100%;
+}
+
+body{
+    background-image:url(img/background.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 100%;
+}
+
+
+header{
+    background-color: white;
+    display: flex;
+    height: 5rem;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-family: "Jua", serif;
+}
+
+.tab{
+    font-size: 1.5rem;
+    margin: 2rem;
+}
+
+.container-inicio{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "Poppins", serif;
+    margin-top: 10%;
+}
+
+.container-cursos{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cursos-texto{
+    color: #FFFFFF;
+    font-size: 2rem;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: "Poppins", serif;
+}
+
+.cursos-texto p{
+    font-size: 1rem;
+    margin: 0;
+}
+
+.cursos-texto h2{
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+h1{
+    color: #FFFFFF;
+    font-size: 3rem;
+    width: 70%;
+    justify-items: center;
+    font-family: "Poppins", serif;
+}
+
+.container-tarjeta{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1rem;
+}
+
+
+.tarjeta{
+    background-color: white;
+    width: 20%;
+}
+
+.texto-tarjeta{
+    margin: 1rem;
+    font-family: "Poppins", serif;
+}
+
+.texto-tarjeta p{
+    font-size: 0.5rem;
+
+}
+
+h3{
+    font-size: 0.75rem;
+
+}
+
+img{
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+}
+
+.specs-tarjeta{
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.5rem;
+    font-family: "Poppins", serif;
+    margin: 1rem;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: #D61414;
+}
+
+@media (width <= 450px){
+    .container-tarjeta{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 70%;
+    }
+
+    .tarjeta{
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .cursos-texto p{
+        font-size: 0.75rem;
+        margin: 0;
+    }
+
+    h1{
+        font-size: 2rem;
+    }
+
+    body{
+        background-repeat: repeat;
+    }
+}
